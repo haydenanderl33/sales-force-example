@@ -69,7 +69,7 @@ class App extends Component {
       <div className="inputCont">
         <input
           type="text"
-          placeholder=" Enter item to be searched"
+          placeholder=" Enter name to be searched"
           onChange={(e) => this.searchSpace(e)}
         />
         </div>

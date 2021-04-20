@@ -7,13 +7,13 @@
 }
 body{
   height: 100%;
-  width: 100vw;
+  width: 100%;
   background: rgb(68,208,181);
   background: linear-gradient(90deg, rgba(68,208,181,1) 0%, rgba(14,127,181,1) 100%);
 }
 
 .inputCont {
-  height: 10vh;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@ body{
 input {
   text-align: start;
   height: 24px;
-  max-width: 180px;
+  width: 200px;
   border: solid;
   border-radius: 10px;
 }
